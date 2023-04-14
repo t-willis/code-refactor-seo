@@ -65,7 +65,7 @@ header section ul li {
 
 /* Changed instance of section between header and <section class="content"> */
 /* Background image */
-.hero {
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -77,7 +77,6 @@ header section ul li {
 
 /* MAIN CONTENT THINGS */
 /* Changed all instances of section and class within <section class="content"> */
-
 .content {
     width: 75%;
     display: inline-block;
