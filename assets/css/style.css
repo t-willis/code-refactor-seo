@@ -1,72 +1,31 @@
-/* Universal box sizing, padding, margin */
+/* GENERAL THINGS */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Background color for body */
 body {
     background-color: #d9dcd6;
 }
 
-/* Font hierarchy, background color, text color and padding for header */
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-/* Header h1 display set to allow sitting next to other elements, font size */
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-/* Color for letters 'seo' in header h1 */
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-/* Font heirarchy, margin/padding, font size, side of header section is oriented */
-header section {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/* Header section unordered list style type */
-header section ul {
-    list-style-type: none;
-}
-
-/* Header section unordered list ITEM display/margin */
-header section ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-/* Link color properties, text decoration */
+/* Changed all instances of a, a:hover, p, within page */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Link color and text decoration changes on mouse hover */
 a:hover{
     color: #d9dcd6;
     text-decoration: underline;
 }
 
-/* Font size within <p> tags */
 p {
     font-size: 16px;
 }
 
-/* Properties for background image */
+/* Changed instance of section between header and <section class="content"> */
+/* Background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -76,64 +35,64 @@ p {
     background-position: center;
 }
 
-/* Class selector declarations to position on the left, set margin */
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* HEADER THINGS */
+/* Changed all instances of h1, h1 .seo, within header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
-/* Class selector declarations to position on the right, set margin */
-.float-right {
+header h1,
+header h1 .seo {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Changed all instances of ul, ul li, within header section */
+header section {
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header section ul {
+    list-style-type: none;
+}
+
+header section ul li {
+    display: inline-block;
     margin-left: 25px;
 }
 
-/* Content block setting width, display allowing to position next to other elements, margin */
+
+/* MAIN CONTENT THINGS */
+/* Changed all instances of section and class within <section class="content"> */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Font heirarchy, margin/padding, position, dimensions, background color of right side content */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
     float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-left: 25px;
 }
 
-/* Margin/color for classes within the parent benefit section */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Margin/color for h3 for classes within the parent benefit section */
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Display, margin, and image width for classes within the parent benefit section*/
-.benefit-brand img,
-.benefit-cost img,
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Bottom margin, padding, height, font heirarchy, background color, and text color for 
-section ids within the parent content section */
+/* Changed all instances of id within <section class="content"> */
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing {
@@ -145,14 +104,12 @@ section ids within the parent content section */
     color: #ffffff;
 }
 
-/* img declarations for ids within the parent content section */
 #search-engine-optimization img,
 #online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
 }
 
-/* h2 declarations for ids within the parent content section */
 #search-engine-optimization h2,
 #online-reputation-management h2,
 #social-media-marketing h2 {
@@ -160,7 +117,44 @@ section ids within the parent content section */
     font-size: 36px;
 }
 
-/* Padding, font heirarchy, text alignment, not allowing objects adjacent to footer */
+
+/* SIDEBAR THINGS */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Changed all instances of section within <section class="benefits"> */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img,
+.benefit-cost img,
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* FOOTER THINGS */
 footer {
     padding: 30px;
     clear: both;
@@ -168,7 +162,7 @@ footer {
     text-align: center;
 }
 
-/* Font size for h2 within footer */
+/* Changed all instances of h2 within footer */
 footer h2 {
     font-size: 20px;
 }
