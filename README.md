@@ -15,7 +15,7 @@ N/A
 
 ## Usage
 
-The webpage can be visited by clicking ![here](https://t-willis.github.io/code-refactor-seo/)
+The webpage can be visited by clicking [here](https://t-willis.github.io/code-refactor-seo/).
 
 ![Webpage Image](assets/images/CRS-README-Image1.png)
 
