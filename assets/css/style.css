@@ -24,16 +24,6 @@ p {
     font-size: 16px;
 }
 
-/* Changed instance of section between header and <section class="content"> */
-/* Background image */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
 /* HEADER THINGS */
 /* Changed all instances of h1, h1 .seo, within header */
@@ -70,6 +60,18 @@ header section ul {
 header section ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+
+/* Changed instance of section between header and <section class="content"> */
+/* Background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 
