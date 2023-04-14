@@ -61,7 +61,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/* Font size within <p> paragraph tags */
+/* Font size within <p> tags */
 p {
     font-size: 16px;
 }
@@ -107,87 +107,35 @@ p {
     background-color: #2589bd;
 }
 
-/* Margin/color for benefit-lead class */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Margin/color for benefit-brand class */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Margin/color for benefit-cost class */
+/* Margin/color for classes within the parent benefit section */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Margin/color for h3 within benefit-lead class */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Margin/color for h3 within benefit-brand class */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Margin/color for h3 within benefit-cost class */
+/* Margin/color for h3 for classes within the parent benefit section */
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Display, margin, and image width within benefit-lead class */
+/* Display, margin, and image width for classes within the parent benefit section*/
+.benefit-brand img,
+.benefit-cost img,
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Display, margin, and image width within benefit-brand class */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Display, margin, and image width within benefit-cost class */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /* Bottom margin, padding, height, font heirarchy, background color, and text color for 
-search-engine optimization id */
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Bottom margin, padding, height, font heirarchy, background color, and text color for 
-online-reputation-management id */
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Bottom margin, padding, height, font heirarchy, background color, and text color for 
-social-media-marketing id */
+section ids within the parent content section */
+#search-engine-optimization,
+#online-reputation-management,
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -197,40 +145,22 @@ social-media-marketing id */
     color: #ffffff;
 }
 
-/* img declarations for search-engine-optimization id */
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* img declarations for online-reputation-management id */
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-/* img declarations for social-media-marketing id */
+/* img declarations for ids within the parent content section */
+#search-engine-optimization img,
+#online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
 }
 
-/* h2 declarations for search-engine-optimization id */
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* h2 declarations for online-reputation-management id */
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* h2 declarations for social-media-marketing id */
+/* h2 declarations for ids within the parent content section */
+#search-engine-optimization h2,
+#online-reputation-management h2,
 #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Padding, font heirarchy, text alignment, now allowing objects beside */
+/* Padding, font heirarchy, text alignment, not allowing objects adjacent to footer */
 footer {
     padding: 30px;
     clear: both;
