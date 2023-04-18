@@ -42,7 +42,7 @@ header h1 .seo {
 
 
 /* Changed all instances of ul, ul li, within header section */
-header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,11 +50,11 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+header nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
