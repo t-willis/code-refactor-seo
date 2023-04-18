@@ -34,8 +34,7 @@ header {
     color: #ffffff;
 }
 
-header h1,
-header h1 .seo {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
